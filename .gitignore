@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Training data — not committed. `english_dataset_40mb.txt` is the source corpus;
+# the part_* files are produced from it by file_splitter.py.
+english_dataset_40mb.txt
+part_*_english_dataset_40mb.txt
+
+# Generated outputs. The trained artifacts that ARE committed are vocab.bpe (the
+# merges, and the source of truth for the web app) and readable.vocab.
+embedding_matrix.txt
+vectors_hello_world.txt
+tokens_used_*_merges.txt
+
+# Local tooling
+.claude/

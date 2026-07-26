@@ -1,0 +1,6 @@
+# The parity test is a local development gate — it needs Python and the training
+# data, neither of which exist on Vercel. Its ground-truth fixture is ~11 MB.
+test/
+
+node_modules
+.next

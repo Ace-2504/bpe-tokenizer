@@ -16,3 +16,5 @@ tokens_used_*_merges.txt
 
 # Local tooling
 .claude/
+
+.vercel

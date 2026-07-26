@@ -8,7 +8,9 @@
   --bg: #e7e1d2;      --bg-soft: #f4f0e7;
   --panel: #fdfbf6;   --panel-2: #f6f2e9;
   --border: #d5cbb5;  --border-soft: #e1d9c6;
-  --fg: #211f1a;      --fg-muted: #6b675c;  --fg-dim: #8f887a;
+  /* Black, neutral text ramp (no warm/beige tint) — primary is pure black,
+     muted/dim are neutral greys so hierarchy survives without reading as beige. */
+  --fg: #000000;      --fg-muted: #333333;  --fg-dim: #5c5c5c;
   --accent: #b45309;  --accent-2: #0f766e;  --accent-3: #6d28d9;
   --grid: rgba(0, 0, 0, 0.035);
   --glow-1: rgba(180, 83, 9, 0.05);  --glow-2: rgba(15, 118, 110, 0.05);

@@ -26,8 +26,12 @@ export default function Home() {
       </header>
 
       <section className="hero">
+        <div className="hero-badge">
+          <span className="live-dot" aria-hidden="true" />
+          <span className="tag">Built from scratch by Harman Sandhu</span>
+        </div>
         <h1 className="hero-title">
-          BPE<span className="hero-accent">-512</span>
+          BPE<span className="hero-accent">-TOKENIZER</span>
         </h1>
         <p className="hero-sub">
           A byte-level byte-pair encoder built from scratch in Python — {MAX_MERGES} merges,
